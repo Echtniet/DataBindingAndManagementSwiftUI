@@ -33,7 +33,7 @@ struct ContentView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 5))
                             .shadow(radius: 5)
                         }
-                    }.padding(12)
+                    }.padding(12) 
                 }.background(Color.gray)
                 List {
                     Text("Empty row")
